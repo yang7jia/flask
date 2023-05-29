@@ -27,6 +27,6 @@ def create_app(test_config=None):
     # a simple page that says hello
     @app.route('/hello')
     def hello():
-        return '我是666组的'
+        return '666组'
 
     return app
